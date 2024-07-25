@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Leaf Identification</title>
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"
+    ></script>
+
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <meta name="theme-color" content="#31d53d" />
+  </head>
+  <body>
+    <!-- <capacitor-welcome></capacitor-welcome> -->
+     <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./login.html">Log In</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+     </header>
+    <div class="main-page">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-1-sm mb-5">
+            
+          </div>
+          <div class="col-10-sm mb-3 mt-5" id="column">
+            <h1>Welcome to your leafy friend</h1>
+          </div>
+          <div class="col-1-sm">
+            <button type="button" class="btn btn-info mt-3" id="button">Take a Photo</button>
+            <br>
+            <button type="button" class="btn btn-info mt-3 mb-5" id="button">Dashboard</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script type="module" src="https://unpkg.com/@capacitor/core@"></script> -->
+
+    <!-- <script src="./js/capacitor-welcome.js" type="module"></script> -->
+    <script src="./js/main.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
